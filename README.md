@@ -67,7 +67,7 @@ This will run all the unit tests defined in `IoU_tests.py` and print the results
 
 Here's an example of the IoU calculation for different scenarios:
 
-```bash
+```python
 # Example 1: Partial overlap
 box1 = torch.tensor([.8, .1, .2, .2])
 box2 = torch.tensor([.9, .2, .2, .2])
